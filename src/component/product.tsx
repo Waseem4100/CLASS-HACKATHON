@@ -1,5 +1,6 @@
 import Image from "next/image";
 import  TopSection from "@/public/TopSection.png"
+import  TopSectionred from "@/public/TopSectionred.png"
 import product1 from "@/public/product1.png"
 import product2 from "@/public/product2.png"
 import product3 from "@/public/product3.png"
@@ -21,7 +22,7 @@ return(
         <div className="products">
 
 <div className="productcard">
-    <Image src={TopSection} alt="" className="TopSection" />
+   <Image src={TopSection} alt="" className="TopSection" />
     <Image src= {product1}alt="discount product" className="productimage"/>
    <div className="productcardtext">
     <h1 className="ProductName">Apple Iphone 14 Pro 512GB Deep Purple</h1>
@@ -74,7 +75,7 @@ return(
 </div>
 
 <div className="productcard">
-<Image src={TopSection} alt="" className="TopSection" />
+<Image src={TopSectionred} alt="" className="TopSection" />
     <Image src= {product6}alt="discount product" className="productimage"/>
     <div className="productcardtext">
     <h1 className="ProductName">Galaxy Buds FE Graphite</h1>

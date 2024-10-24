@@ -568,7 +568,10 @@ input :active{
 .lastbanner{
   width: 1440px;
   height: 448px;
-  background: #211C24;
+  /* background-image: url('/src/public/lastBanner.jpg');
+  background-size: cover;
+  background-position: center; */
+  background: #2C2C2C;
   padding-left:  443.5px;
   padding-right: 443.5px;
   padding-top:  124px;

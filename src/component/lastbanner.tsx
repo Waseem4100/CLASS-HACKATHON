@@ -1,5 +1,5 @@
 import Image from "next/image";
-import lastBanner from "@/public/LastBanner.png"
+import lastBanner from "@/public/lastBanner.jpg"
 
 export default function LastBanner(){
     return(
