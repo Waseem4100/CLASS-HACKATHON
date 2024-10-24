@@ -2,26 +2,673 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+.header{
+  width: 1440px;
+  height: 88px;
+  display: flex;
+  background: white;
+  padding-top: 16px;
+  padding-left: 160px;
+  padding-right: 160px;
+  align-items: center;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+ .headerLogo{
+  width: 65.4px ;
+  height: 22.8px;
+  margin-right: 24px;
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+
+.headerSearch{
+  width: 372px;
+  height: 56;
+  display: flex ;
+  background: #F5F5F5;
+  padding-left: 16px;
+}
+.searchIcon{
+  width: 16px;
+  height: 16px;
+  margin-top: 20px;
+
+}
+input {
+  width: 350px;
+  height:55px ;
+  border: transparent;
+
+  background: #F5F5F5;
+}
+input :active{
+  border: none;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.headerButtons{
+  width:369px ;
+  height:19px ;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  font-size: 16px;
+  gap: 2.5rem;
+}
+
+.headerIcon{
+  width: 144px;
+  height: 32px;
+  display: flex;
+  gap: 2rem;
+}
+
+.banner1{
+  width: 1440px;
+  height: 632px;
+  display: flex;
+  background: #211C24;
+  padding-left: 160px;
+  padding-right: 160px;
+}
+
+.banner1text{
+  width:714px ;
+  height: 256;
+  margin-top: 188px;
+  margin-bottom: 188px;
+}
+.textheading1{
+  font-size: 25px;
+  font-weight: 400;
+  color: #FFFFFF;
+  opacity: 40% ;
+
+}
+.iphoneheading{
+  width: 714px;
+  line-height: 72px;
+  font-size: 96px;
+  font-weight: 20;
+  color: white;
+}
+.prospan{
+  font-weight: 400;
+}
+.textparagraph{
+  width: 714px;
+  height: 24px;
+  font-size: 18px;
+  font-weight: 300;
+  color:#909090 ;
+}
+.shopbutton{
+  margin-top: 15px;
+  width: 191px;
+  height: 56px;
+  color: white;
+
+  border: #F5F5F5 solid 2px;
+  border-radius: 10px;
+}
+
+
+.banner2{
+  width: 1440px;
+  height: 600px;
+  display: flex;
+}
+.leftbanner{
+  width: 720px;
+  height: 600px;
+}
+
+.playststionbanner{
+  width: 720px;
+  height: 328px;
+  display: flex;
+}
+
+.playstationtext{
+  width: 338px;
+  height: 128px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.playstationheading{
+  color: black;
+  font-size: 49px;
+  line-height: 40px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.playstationpragraph{
+  color: #909090;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 300;
+  width: 338px;
+
+}
+
+.lowerleftbanner{
+  width: 720px;
+  height: 272px;
+  display: flex;
+}
+
+.airpodbanner{
+  width: 360px;
+  height: 272px;
+  background: #EDEDED;
+  display: flex;
+  padding-right: 48px;
+}
+
+.airpodtext{
+   width: 160px;
+  height: 143px;
+  margin-top: 52px;
+  margin-bottom: 52px;
+  margin-left: 15px;
+  
+}
+.airpodheading{
+  width: 160px;
+  height: 120px;
+  font-size: 29px;
+  font-weight: 20;
+  color: #000000;
+  line-height: 40px;
+
+}
+.airpodspan{
+  font-weight: 500;
+}
+.airpodpragraph{
+  font-size: 14px;
+  line-height: 24px;
+  color: #909090;
+  width: 160px;
+}
+
+.applevisionbanner{
+  width: 360px;
+  height: 272px;
+  background: #353535;
+  display: flex;
+  padding-top:56px ;
+  padding-bottom: 56px;
+  padding-right: 48px;
+  
+
+}
+
+.applevisiontext{
+  height: 160px;
+  width: 160px;
+  margin-left: 15px;
+  
+}
+.applevisionheading{
+  font-size: 29px;
+  line-height: 40px;
+  font-weight: 30;
+  color: white;
+}
+.applevisionspan{
+  font-weight: 500;
+}
+.applevisionparagraph{
+  width: 160px;
+  font-size: 14px;
+  line-height: 24px;
+  color: #909090;
+}
+
+.macbookbanner{
+  width: 720px;
+  height: 600px;
+  display: flex;
+  background: #EDEDED;
+  padding-top: 44px;
+  padding-bottom: 44px;
+}
+
+.macbooktext{
+  width: 360px;
+  height: 272px;
+  margin-left: 56px;
+  margin-top: 164px;
+  margin-bottom: 164px;
+}
+
+.macbookheading{
+  font-size: 64px;
+  font-weight: 5;
+  color: #000000;
+  line-height: 56px;
+}
+.macbookspan{
+  font-weight: 500;
+
+}
+
+.macbookpragraph{
+  line-height: 24px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #909090;
+
+}
+.macbookbutton{
+  width: 191px;
+  height: 56px;
+  color: black;
+  border: black solid 2px;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+
+
+.categorySection{
+  width: 1440px;
+  height: 352px;
+  background: #FAFAFA;
+  padding-left: 160px;
+  padding-right: 160px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.categorytext{
+  width: 1120px;
+  height: 32px;
+  margin-bottom: 32px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.categoryheading{
+  width: 239px;
+  height: 32px;
+  color: black;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 1%;
+  font-weight: 500;
+
+}
+
+.categoryarrow{
+  display: flex;
+  margin-top: 10px;
+ 
+}
+
+
+.categorycards{
+  width: 1120px;
+  height: 128px;
+  display: flex;
+  gap: 32px;
+}
+.categorycard{
+  width: 160px;
+  height: 128px;
+  background: #EDEDED;
+  padding-left: 50px;
+  padding-right: 52px;
+  padding-bottom:24px ;
+  padding-top: 24px;
+  border-radius: 15px;
+  color: #000000;
+}
+.cardtext{
+  font-size: 16;
+  line-height: 24px;
+  text-align: center;
+  color: #000000;
+  margin-left: -5px;
+}
+
+.productsection{
+  width: 1440px;
+  height: 1056px;
+  background: #FFFFFF;
+  padding-left: 160px;
+  padding-right: 160px;
+  padding-top: 56px;
+  padding-bottom: 56px;
+}
+
+.products{
+  width: 1120px;
+  height: 432px;
+  display: flex;
+  gap: 16px;
+  margin-bottom: 17px;
+}
+
+.productcard{
+  width: 268px;
+  height: 432px;
+  background: #F6F6F6;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 24px;
+  padding-bottom: 24px ;
+  border-radius: 9px;
+}
+
+.productimage{
+  width: 160px;
+  height: 160px;
+  margin-left: 50px;
+  margin-top: 30px;
+}
+
+.productcardtext{
+  margin-top: 10px;
+  width:236px;
+  height: 160px;
+  font-size: 16;
+  line-height: 24px;
+  text-align: center;
+  color: #000000;
+  margin-left: -5px;
+}
+
+.ProductName{
+  width: 236px;
+  height: 48px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: 500;
+
+}
+
+.Productprice{
+  font-size: 24px;
+  line-height: 24px;
+  color: #000000;
+  letter-spacing: 3%;
+  text-align: center;
+  font-weight: 700;
+  margin-top: 15px;
+  margin-bottom: 25px;
+
+
+}
+
+.BuyButton{
+  width: 188px;
+  height: 48px;
+  background: black;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 500;
+  color: #FFFFFF;
+  border-radius: 8px;
+  padding-left: 64px;
+  padding-right: 64px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  margin-left: 8px;
+  margin-right: 8px;
+
+}
+
+
+
+
+.banner3{
+  width: 1440px;
+  height: 640px;
+  display: flex;
+ 
+}
+.popularproductcard{
+  width: 360px;
+  height: 640px;
+  background: white;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-bottom:56px ;
+}
+
+.ipadprocard{
+  width: 360px;
+  height: 640px;
+  background:#F9F9F9;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-bottom:56px ;
+
+}
+
+.samsunggalaxycard{
+  width: 360px;
+  height: 640px;
+  background:#EAEAEA;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-bottom:56px ;
+
+}
+
+.Macbookprocard{
+  width: 360px;
+  height: 640px;
+  background:#2C2C2C;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-bottom:56px ;
+ 
+
+}
+.Macbookprotext{
+  width: 269px;
+  height: 208px;
+  color: white;
+  
+
+}
+.Macbookprobutton{
+  width: 191px;
+  height: 56px;
+  color:  rgb(255, 255, 255);
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 6px;
+  padding-left: 56px;
+  padding-right: 56px;
+  padding-bottom:16px ;
+  padding-top: 16px;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+}
+
+
+.banner3container{
+  width:360.06ox ;
+  height: 327px;
+  
+}
+.banner3text{
+  width: 269px;
+  height: 208px;
+  
+
+}
+
+.banner3heading{
+  font-size: 33px;
+  line-height: 48px;
+  text-align: left;
+}
+
+.banner3pragraph{
+  height: 72px;
+  font-size:14px ;
+  line-height: 24px;
+  font-weight: 400;
+  color: #909090;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.banner3button{
+  width: 191px;
+  height: 56px;
+  color:  black;
+  border: 2px solid black;
+  border-radius: 6px;
+  padding-left: 56px;
+  padding-right: 56px;
+  padding-bottom:16px ;
+  padding-top: 16px;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+}
+
+
+
+
+.discountsection{
+  width: 1440px;
+  height: 656px;
+  color: #FFFFFF;
+  padding-top: 80px ;
+  padding-bottom: 80px;
+  padding-left: 160px ;
+  padding-right: 160px;
+}
+
+.discountheading{
+  width: 248px;
+  height: 32px;
+  font-size: 24px;
+  line-height: 32px;
+  color :#000000;
+  margin-bottom: 32px;
+  font-weight: 500;
+}
+
+
+
+
+
+.lastbanner{
+  width: 1440px;
+  height: 448px;
+  background: #211C24;
+  padding-left:  443.5px;
+  padding-right: 443.5px;
+  padding-top:  124px;
+  padding-bottom: 124px ;
+}
+
+.lastbannertext{
+  width:553px ;
+  height:200px ;
+ 
+ }
+
+ .lastbannerheading{
+  font-size: 72px;
+  line-height: 72px;
+  font-weight: 30;
+  color: white;
+ }
+
+ .lastbannerspan{
+  font-weight: 500;
+
+ }
+
+ .lastbannerprgraph{
+  font-size: 16px;
+  line-height: 32px;
+  color: #787878;
+  margin-bottom: 30px;
+ }
+
+
+.lastbannershopbutton{
+  margin-top: 15px;
+  width: 191px;
+  height: 56px;
+  color: white;
+  border: #F5F5F5 solid 2px;
+  border-radius: 10px;
+  align-items: center;
+  margin-left: 178px;
+  margin-right: 183px;
+}
+
+
+.footer{
+  width:1440px ;
+  height:504px ;
+  background: black;
+  padding-left: 160px;
+  padding-right: 160px;
+  padding-top: 104px;
+  padding-bottom: 104px;
+}
+
+
+.footercontent{
+  width:1120px ;
+  height:256px ;
+  display: flex;
+  font: white;
+
+}
+
+.cybercontent{
+  width: 384px;
+  height: 150.8px;
+ 
+}
+
+.servicescontent{
+  width: 295.5px;
+  height: 256px;
+  margin: auto;
+}
+
+.Assistancecontent{
+  width: 295.5px;
+  height: 256px;
+  margin: auto;
+}
+.footerli{
+  align-items: center;
+  margin-bottom: 10px;
+  color: white;
+}
+.footerheading{
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+  margin-bottom: 10px;
+}
+.footerpragraph{
+  color: white;
+}
+
+.footericon{
+  width: 173px;
+  height: 16px;
+  display: flex;
+  gap: 2.5rem;
+  cursor: pointer;
 }
