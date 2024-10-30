@@ -1,8 +1,8 @@
 import Image from "next/image";
-import Macbookpro from "@/public/Macbookpro.png"
-import popularproduct from "@/public/popularproduct.png"
-import samsunggalaxy from "@/public/samsunggalaxy.png"
-import ipadpro from "@/public/ipadpro.png"
+import Macbookpro from "@/public/banner3/Macbookpro.png"
+import popularproduct from "@/public/banner3/popularproduct.png"
+import samsunggalaxy from "@/public/banner3/samsunggalaxy.png"
+import ipadpro from "@/public/banner3/ipadpro.png"
 
 export default function Banner3 (){
     return(

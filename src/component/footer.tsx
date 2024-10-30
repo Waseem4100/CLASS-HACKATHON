@@ -1,9 +1,9 @@
 import Image from "next/image";
-import footerlogo from "@/public/footerlogo.png"
-import twitter from "@/public/Twitter.png"
-import facebook from "@/public/facebook.png"
-import tiktok from "@/public/tiktok.png"
-import Instagram from "@/public/Instagram.png"
+import footerlogo from "@/public/footer/footerlogo.png"
+import twitter from "@/public/footer/Twitter.png"
+import facebook from "@/public/footer/facebook.png"
+import tiktok from "@/public/footer/tiktok.png"
+import Instagram from "@/public/footer/Instagram.png"
 
 
 export default function Footer (){

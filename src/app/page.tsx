@@ -1,5 +1,5 @@
 
-import IphoneBanner from "@/component/iphone14" 
+import Banner1 from "@/component/banner1" 
 import Banner2 from "@/component/banner2"
 import CategorySection from "@/component/category";
 import Products from "@/component/product"
@@ -9,7 +9,7 @@ import DiscountSection from "@/component/discountsection"
 export default function Home() {
   return (
   <div>
-    <IphoneBanner />
+    <Banner1 />
    < Banner2 />
    < CategorySection />
    < Products />

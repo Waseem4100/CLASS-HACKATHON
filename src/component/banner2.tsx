@@ -1,9 +1,10 @@
 import Image from "next/image";
-import Playstation from "@/public/PlayStation.png"
-import applevision from "@/public/applevision.png"
-import airpod from "@/public/airpod.png"
+import Playstation from "@/public/banner2/PlayStation.png"
+import applevision from "@/public/banner2/applevision.png"
+import airpod from "@/public/banner2/airpod.png"
+import Macbook from "@/public/banner2/MacBook .png"
 
-import Macbook from "@/public/MacBook .png"
+
 export default function Banner2(){
     return(
         <div className="banner2">

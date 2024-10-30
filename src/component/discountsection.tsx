@@ -1,10 +1,10 @@
 import Image from "next/image";
 
 import TopSection from "@/public/TopSection.png"
-import discountproduct1 from "@/public/discountproduct1.png"
-import discountproduct2 from "@/public/discountproduct2.png"
-import discountproduct3 from "@/public/discountproduct3.png"
-import discountproduct4 from "@/public/discountproduct4.png"
+import discountproduct1 from "@/public/dicount/discountproduct1.png"
+import discountproduct2 from "@/public/dicount/discountproduct2.png"
+import discountproduct3 from "@/public/dicount/discountproduct3.png"
+import discountproduct4 from "@/public/dicount/discountproduct4.png"
 
 
 export default function DiscountSection(){

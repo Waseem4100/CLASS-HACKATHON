@@ -1,14 +1,14 @@
 import Image from "next/image";
 import  TopSection from "@/public/TopSection.png"
 import  TopSectionred from "@/public/TopSectionred.png"
-import product1 from "@/public/product1.png"
-import product2 from "@/public/product2.png"
-import product3 from "@/public/product3.png"
-import product4 from "@/public/product4.png"
-import product5 from "@/public/product5.png"
-import product6 from "@/public/product6.png"
-import product7 from "@/public/product7.png"
-import product8 from "@/public/product8.png"
+import product1 from "@/public/product/product1.png"
+import product2 from "@/public/product/product2.png"
+import product3 from "@/public/product/product3.png"
+import product4 from "@/public/product/product4.png"
+import product5 from "@/public/product/product5.png"
+import product6 from "@/public/product/product6.png"
+import product7 from "@/public/product/product7.png"
+import product8 from "@/public/product/product8.png"
 
 
 export default function Products (){

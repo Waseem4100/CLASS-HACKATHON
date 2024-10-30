@@ -33,15 +33,16 @@
   margin-top: 20px;
 
 }
-input {
+
+
+.searchnput{
   width: 350px;
   height:55px ;
-  border: transparent;
-
+  border:#F5F5F5 ;
   background: #F5F5F5;
 }
-input :active{
-  border: none;
+.searchnput:active{
+  border: blue;
 }
 
 .headerButtons{
@@ -105,9 +106,18 @@ input :active{
   width: 191px;
   height: 56px;
   color: white;
-
+ 
   border: #F5F5F5 solid 2px;
   border-radius: 10px;
+}
+
+.shopbutton:hover{
+  background: #F5F5F5;
+  color: black;
+  
+  font-weight: 500;
+  transform: scale(1) translateY(-2px);
+  box-shadow: 0 0 5px #F5F5F5; 
 }
 
 
@@ -317,19 +327,22 @@ input :active{
   width: 160px;
   height: 128px;
   background: #EDEDED;
-  padding-left: 50px;
+  padding-left: 52px;
   padding-right: 52px;
   padding-bottom:24px ;
   padding-top: 24px;
   border-radius: 15px;
   color: #000000;
 }
+.categoryimage{
+  align-items: center;
+}
 .cardtext{
   font-size: 16;
   line-height: 24px;
   text-align: center;
   color: #000000;
-  margin-left: -5px;
+  margin-left: -10px;
 }
 
 .productsection{
@@ -359,6 +372,14 @@ input :active{
   padding-top: 24px;
   padding-bottom: 24px ;
   border-radius: 9px;
+  transition: 0.5s;
+}
+
+.productcard:hover{
+ 
+  font-weight: 500;
+  transform: scale(1) translateY(-2.5px);
+  box-shadow: 0 0 25px #621818; 
 }
 
 .productimage{
@@ -568,9 +589,9 @@ input :active{
 .lastbanner{
   width: 1440px;
   height: 448px;
-  /* background-image: url('/src/public/lastBanner.jpg');
+  /* background-image: url("/src/public/lastbanner/lastBanner.jpg");
   background-size: cover;
-  background-position: center; */
+  background-position: center;  */
   background: #2C2C2C;
   padding-left:  443.5px;
   padding-right: 443.5px;
@@ -614,6 +635,16 @@ input :active{
   align-items: center;
   margin-left: 178px;
   margin-right: 183px;
+  transition: 0.5s;
+}
+
+.lastbannershopbutton:hover{
+  background: #F5F5F5;
+  color: black;
+  
+  font-weight: 500;
+  transform: scale(1) translateY(-2px);
+  box-shadow: 0 0 5px #F5F5F5; 
 }
 
 

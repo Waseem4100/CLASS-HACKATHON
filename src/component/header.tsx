@@ -1,9 +1,9 @@
 import Image from "next/image";
-import Logo1 from "@/public/Logo1.png"
-import Search from "@/public/Search.png"
-import Favorites from "@/public/Favorites.png"
-import Cart from "@/public/Cart.png"
-import User from "@/public/User.png"
+import Logo1 from "@/public/header/Logo1.png"
+import Search from "@/public/header/Search.png"
+import Favorites from "@/public/header/Favorites.png"
+import Cart from "@/public/header/Cart.png"
+import User from "@/public/header/User.png"
 
 export default function Header (){
     return(
@@ -13,7 +13,7 @@ export default function Header (){
             </div>
             <div className="headerSearch">
             <Image src={Search} alt="Search" className="searchIcon" />
-                <input type="text" placeholder="Search" />
+                <input  type="text" placeholder="  Search" className="searchnput" />
               
             </div>
             <div className="headerButtons">

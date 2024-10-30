@@ -1,12 +1,12 @@
 import Image from "next/image";
-import ForwardArrow from "@/public/ForwardArrow.png"
-import BackwardArrow from "@/public/BackwardArrow.png"
-import  Phones from "@/public/Phones.png"
-import SmartWatches from "@/public/SmartWatches.png"
-import Headphones from "@/public/Headphones.png"
-import Cameras from "@/public/Cameras.png"
-import Computers from "@/public/Computers.png"
-import Gaming from "@/public/Gaming.png"
+import ForwardArrow from "@/public/category//ForwardArrow.png"
+import BackwardArrow from "@/public/category/BackwardArrow.png"
+import  Phones from "@/public/category/Phones.png"
+import SmartWatches from "@/public/category/SmartWatches.png"
+import Headphones from "@/public/category/Headphones.png"
+import Cameras from "@/public/category/Cameras.png"
+import Computers from "@/public/category/Computers.png"
+import Gaming from "@/public/category/Gaming.png"
 
 export default function CategorySection(){
     return(
@@ -23,42 +23,42 @@ export default function CategorySection(){
              </div>
              <div className="categorycards">
                 <div className="categorycard">
-                    <Image src={Phones} alt=""></Image>
+                    <Image src={Phones} alt="" className="categoryimage"></Image>
 
                     <h1 className="cardtext">phone</h1>
 
                 </div>
 
                 <div className="categorycard">
-                    <Image src={SmartWatches} alt=""></Image>
+                    <Image src={SmartWatches} alt="" className="categoryimage"></Image>
 
                     <h1 className="cardtext">Smart Watches</h1>
 
                 </div>
 
                 <div className="categorycard">
-                    <Image src={Cameras} alt=""></Image>
+                    <Image src={Cameras} alt="" className="categoryimage"></Image>
 
                     <h1 className="cardtext">Cameras</h1>
 
                 </div>
 
                 <div className="categorycard">
-                    <Image src={Headphones} alt="Headphones"></Image>
+                    <Image src={Headphones} alt="Headphones" className="categoryimage"></Image>
 
                     <h1 className="cardtext">Headphones</h1>  
 
                 </div>
 
                 <div className="categorycard">
-                    <Image src={Computers} alt="Computers"></Image>
+                    <Image src={Computers} alt="Computers" className="categoryimage"></Image>
 
                     <h1 className="cardtext">Computers</h1>
 
                 </div>
 
                 <div className="categorycard">
-                    <Image src={Gaming} alt="Gaming"></Image>
+                    <Image src={Gaming} alt="Gaming" className="categoryimage"></Image>
 
                     <h1 className="cardtext">Gaming</h1>
 

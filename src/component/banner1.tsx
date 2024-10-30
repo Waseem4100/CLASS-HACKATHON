@@ -1,8 +1,8 @@
  import Image from "next/image";
-import  IphoneImage from "@/public/IphoneImage.png"
+import  IphoneImage from "@/public/banner1/IphoneImage.png"
 
 
-export default function IphoneBanner(){
+export default function Banner1(){
     return(
         <div className="banner1">
             <div className="banner1text">
