@@ -2,8 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
 .header{
-  width: 1440px;
+width: 1440px;
+
   height: 88px;
   display: flex;
   background: white;
@@ -31,6 +34,7 @@
   width: 16px;
   height: 16px;
   margin-top: 20px;
+  border: none;
 
 }
 
@@ -38,11 +42,13 @@
 .searchnput{
   width: 350px;
   height:55px ;
-  border:#F5F5F5 ;
+  border:none ;
   background: #F5F5F5;
+  outline: none;
+
 }
 .searchnput:active{
-  border: blue;
+ border : none
 }
 
 .headerButtons{
@@ -54,6 +60,21 @@
   font-size: 16px;
   gap: 2.5rem;
 }
+
+.headerButton{
+  cursor: pointer;
+  transition: color 0.2s ease, font-weight 0.2s ease;
+}
+.headerButton:hover{
+  
+  color: black;
+  
+  font-weight: 500;
+  transform: scale(1) translateY(-2px);
+  box-shadow: 0 0 5px #F5F5F5; 
+
+}
+
 
 .headerIcon{
   width: 144px;
@@ -114,10 +135,10 @@
 .shopbutton:hover{
   background: #F5F5F5;
   color: black;
-  
+  border: #000000 2px;
   font-weight: 500;
   transform: scale(1) translateY(-2px);
-  box-shadow: 0 0 5px #F5F5F5; 
+ 
 }
 
 
@@ -280,6 +301,16 @@
   margin-top: 15px;
 }
 
+.macbookbutton:hover{
+  background: black;
+  color: #EDEDED;
+  border: #EDEDED 2px;
+  font-weight: 500;
+  transform: scale(1) translateY(-2px);
+
+}
+
+
 
 .categorySection{
   width: 1440px;
@@ -361,6 +392,30 @@
   display: flex;
   gap: 16px;
   margin-bottom: 17px;
+}
+.producttext{
+  width: 1120px;
+  height: 32px;
+  gap: 2.5rem;
+  display: flex;
+  margin-bottom: 32px;
+
+}
+.productbutton{
+ 
+  line-height: 32px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #8B8B8B;
+  text-align: center;
+  transform: 0.5s;
+}
+.productbutton:hover{
+  font-weight: 500;
+  color: black;
+  text-decoration-line:underline;
+  transform: scale(1) translateY(-2.5px);
+ 
 }
 
 .productcard{
@@ -586,18 +641,18 @@
 
 
 
-.lastbanner{
+ .lastbanner{
   width: 1440px;
   height: 448px;
-  /* background-image: url("/src/public/lastbanner/lastBanner.jpg");
+ /* background: url("/src/public/lastbanner/lastbanner.png"); */
   background-size: cover;
-  background-position: center;  */
+  background-position: center;  
   background: #2C2C2C;
   padding-left:  443.5px;
   padding-right: 443.5px;
   padding-top:  124px;
   padding-bottom: 124px ;
-}
+} 
 
 .lastbannertext{
   width:553px ;
@@ -705,4 +760,13 @@
   display: flex;
   gap: 2.5rem;
   cursor: pointer;
+}
+
+
+
+@media screen (max-width:1240px ) {
+  .header{
+    width : 100%
+  }
+  
 }

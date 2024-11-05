@@ -17,7 +17,9 @@ return(
     <div className="productsection">
 
         <div className="producttext">
-
+         <button className="productbutton"> New Arrival</button>
+         <button className="productbutton">Bestseller</button>
+         <button className="productbutton"> Featured Products</button>
         </div>
         <div className="products">
 

@@ -12,15 +12,15 @@ export default function Header (){
             <Image src={Logo1} alt="logo" />
             </div>
             <div className="headerSearch">
-            <Image src={Search} alt="Search" className="searchIcon" />
+            <Image src={Search} alt="Search" className="searchIcon " />
                 <input  type="text" placeholder="  Search" className="searchnput" />
               
             </div>
             <div className="headerButtons">
-                <button>Home </button>
-                <button>About</button>
-                <button>Contact us</button>
-                <button> Blog</button>
+                <button className="headerButton">Home </button>
+                <button className="headerButton">About</button>
+                <button className="headerButton">Contact us</button>
+                <button className="headerButton"> Blog</button>
                 
             </div>
             <div className="headerIcon">
